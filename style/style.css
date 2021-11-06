@@ -48,8 +48,7 @@ body {
 }
 .link-item {
   color: var(--second-text-color);
-  font-family: Roboto;
-  font-style: normal;
+    font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -60,8 +59,7 @@ body {
   background-color: #2f303a;
 }
 .upmain-title {
-  font-family: Roboto;
-  font-style: normal;
+    font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -78,16 +76,12 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+    letter-spacing: 0.06em;
 }
 /* ------------------About ------------------*/
 .about-item {
   color: var(--main-text-color);
-  font-family: Roboto;
-  font-style: normal;
+    font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -95,7 +89,6 @@ body {
   text-transform: uppercase;
 }
 .about-text {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -103,8 +96,7 @@ body {
   letter-spacing: 0.03em;
 }
 .work-item {
-  font-family: Roboto;
-  font-style: normal;
+    font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -113,8 +105,7 @@ body {
 }
 .team-title {
   color: var(--main-text-color);
-  font-family: Roboto;
-  font-style: normal;
+    font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -123,7 +114,6 @@ body {
 }
 .team-item {
   color: var(--main-text-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -133,8 +123,7 @@ body {
 }
 .team-text {
   color: var(--second-text-color);
-  font-family: Roboto;
-  font-style: normal;
+    font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
