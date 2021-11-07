@@ -4,6 +4,7 @@
   --third-text-color: #ffffff;
   --acent-color: #2196f3;
   --other-color: #000000;
+  --fon-color:#E5E5E5;
 }
 body {
   color: var(--main-text-color);
