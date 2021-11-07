@@ -4,14 +4,14 @@
   --third-text-color: #ffffff;
   --acent-color: #2196f3;
   --other-color: #000000;
+  --fon-color: rgba(255, 255, 255, 0.6);
   }
 body {
   color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  font-style: normal;
-}
+  }
 .list {
   list-style: none;
 }
@@ -131,7 +131,7 @@ body {
  
 }
 .bottom-text {
-  color: rgba(255, 255, 255, 0.6);
+  color:var(--fon-color);
     font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -149,8 +149,7 @@ body {
   font-style: normal;
   font-weight: normal;
     line-height: 2;
-  color: rgba(255, 255, 255, 0.6);
-  }
+  color:var(--fon-color)}
   .bottom-link:hover{
     color:var(--third-text-color);
   }
@@ -162,8 +161,8 @@ body {
   font-style: normal;
   font-weight: normal;
     line-height: 2;
-    color: rgba(255, 255, 255, 0.6);
-  }
+    color:var(--fon-color) 
+   }
   .bottom-phone:hover{
     color: var(--third-text-color);
   }
@@ -181,10 +180,12 @@ body {
     background-color: #f5f4fa;
     }
     .hero-btn:focus{
-      color: var(--acent-color);
+      color: var(--third-text-color);
+      background-color: var(--acent-color);
       }
       .hero-btn:hover{
-        color: var(--acent-color);
+        color: var(--third-text-color);
+        background-color: var(--acent-color);
       }
 .gallery-item {
   color: var(--main-text-color);
