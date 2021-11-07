@@ -131,15 +131,18 @@ body {
  
 }
 .bottom-text {
-  color: var(--third-text-color);
-  font-family: Roboto;
+  color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
  }
 .bottom-text:hover{
-  color: var(--acent-color);
+  color: var(--third-text-color);
+}
+.bottom-text:focus{
+  color: var(--third-text-color);
 }
 .bottom-link {
   font-family: Roboto;
@@ -149,7 +152,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
   }
   .bottom-link:hover{
-    color:var(--acent-color);
+    color:var(--third-text-color);
+  }
+  .bottom-link:focus{
+    color:var(--third-text-color);
   }
 .bottom-phone {
   font-family: Roboto;
@@ -159,7 +165,10 @@ body {
     color: rgba(255, 255, 255, 0.6);
   }
   .bottom-phone:hover{
-    color: var(--acent-color);
+    color: var(--third-text-color);
+  }
+  .bottom-phone:focus{
+    color: var(--third-text-color);
   }
 /* ----------------Portfolio main-------------*/
 .hero-btn {
@@ -170,7 +179,13 @@ body {
   line-height: 1.62;
   text-align: center;
     background-color: #f5f4fa;
-}
+    }
+    .hero-btn:focus{
+      color: var(--acent-color);
+      }
+      .hero-btn:hover{
+        color: var(--acent-color);
+      }
 .gallery-item {
   color: var(--main-text-color);
   font-family: Roboto;
